@@ -1,5 +1,4 @@
 using System;
-using Microsoft.AspNetCore.Mvc;
 
 
 public class Version {
@@ -11,7 +10,7 @@ public class Version {
     public Version(){
 
     }
-    
+
     public String getVersion() {
         return String.Format("You are running the version {0}.{1}.{2}", MAJOR, MINOR, PATCH);
     }
